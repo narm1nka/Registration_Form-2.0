@@ -1,0 +1,154 @@
+.background {
+    background-image: url(../img/Group\ 5.png);
+}
+
+.a_side1 {
+    width: 450px;
+    height: 400px;
+    float: left;
+    
+    margin: 200px 0 0 0px;
+}
+
+.a_side1 h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 55px;
+    letter-spacing: -0.520833px;
+    margin-bottom: 45px;
+    color: #FFFFFF;
+}
+
+.a_side1 span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #FFFFFF;
+}
+
+.a_side2 {
+    width: 600px;
+    height: 550px;
+    
+    float: left;
+    margin: 0px 0 0 60px;
+    
+}
+
+.a_side2 .a_button {
+    background: #5E54A4;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    border-radius: 10px;
+    width: 600px;
+    height: 60px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.a_side2 span {
+    font-weight: 200;
+}
+
+.a_inputs {
+    width: 550px;
+    height: 450px;
+    background: #FFFFFF;
+    
+    border-radius: 10px;
+    margin: 0 0 0 25px;
+    margin-top: 0;
+    
+    
+    
+}
+
+.name {
+    margin: 30px 0 40px 0px;
+}
+
+.surname {
+    margin-bottom: 40px;
+}
+
+.email {
+    margin-bottom: 40px;
+}
+
+.password {
+    margin-bottom: 40px;
+}
+
+.a_inputs .a_button2 {
+    width: 550px;
+    height: 50px;
+    background: #77E2B3;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+    border-radius: 5px;
+}
+
+.a_inputs .a_button2 span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.a_inputs h6 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 236% */
+
+text-align: center;
+
+color: #BAB7D4;
+}
+
+.a_inputs span {
+    color: #FF7979;
+}
+
+.holder {
+width: 600px;
+height: 480px;
+background-color: red;
+float: left;
+margin-top: 30px;
+border-radius: 10px;
+background: #FFFFFF;
+box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+
+}
+
+.center {
+    
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .a_side1 {
+        margin-left: 30px;
+    }
+
+    .a_side2 {
+        margin-left: 20px;
+        width: 400px;
+    }
+}
+
